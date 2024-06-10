@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Desafío</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand text-white" href="#">Mi Portafolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#about">Acerca de Mí</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#skills">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#projects">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#contact">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="header-section">
+        <h1>Bienvenidos a mi Portafolio</h1>
+    </header>
+
+    <section id="about" class="container text-center my-5">
+        <h2>Acerca de Mí</h2>
+        <p>
+            Soy <strong>Katherine</strong>, una profesional en administración de empresas de <strong>Santiago, Chile</strong>, actualmente capacitándome como Desarrolladora de Aplicaciones Full Stack con un enfoque en Python. Estoy comprometida con el aprendizaje continuo y la adaptación de nuevas tecnologías para crear soluciones eficientes e innovadoras. Actualmente, soy trainee en Desarrollo de Aplicaciones Full Stack Python en Desafío Latam, adquiriendo habilidades en desarrollo web y programación en Python.
+        </p>
+
+        <p>
+            Tengo una licenciatura en Administración de Empresas, lo que me ha proporcionado una sólida base en gestión, finanzas y operaciones. Estoy complementando mi formación con estudios en desarrollo full stack, especializándome en Python y Django, optimizando procesos y mejorando la eficiencia operativa. Aunque mi experiencia en desarrollo de software es reciente, mi formación en administración y capacidad para aprender rápidamente me permiten aportar una perspectiva única a proyectos tecnológicos. Soy adaptable, con pensamiento crítico y habilidades de gestión de proyectos.
+        </p>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container text-center">
+            <h2>Habilidades</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Frontend</h5>
+                            <p class="card-text">HTML, CSS, JavaScript, React</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Backend</h5>
+                            <p class="card-text">Node.js, Express, Django, PostgreSQL</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Herramientas</h5>
+                            <p class="card-text">Git, Docker, CI/CD</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container text-center">
+            <h2>Proyectos</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card-flip">
+                        <div class="card-flip-inner">
+                            <div class="card-flip-front">
+                                <img src="assets/img/proj1.PNG" class="card-img-top" alt="Proyecto 1">
+                            </div>
+                            <div class="card-flip-back card-body">
+                                <h5 class="card-title">Portfolio elegido</h5>
+                                <p class="card-text">Me gusta lo simple del portfolio pero profesional y sección de tecnologías detalladas. Me gustaría agregar en mi portfolio lo interactivo y además la responsividad en los dispositivos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://portfolio-n4sn.vercel.app/" target="_blank" class="btn btn-info mt-2">Ver App</a>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card-flip">
+                        <div class="card-flip-inner">
+                            <div class="card-flip-front">
+                                <img src="assets/img/img1.PNG" class="card-img-top" alt="Proyecto 2">
+                            </div>
+                            <div class="card-flip-back card-body">
+                                <h5 class="card-title">Proyecto 2</h5>
+                                <p class="card-text">Descripción detallada del proyecto 2.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://www.google.com.mx/?hl=es-419" target="_blank" class="btn btn-info mt-2">Ver App</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section text-center">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme a través de:</p>
+            <p>Email: www.gmail.com</p>
+            <p>LinkedIn: www.linkedin.com</p>
+        </div>
+    </section>
+    
+    <footer class="text-white text-center py-4">
+        <p>&copy; 2024 Katherine Lazo</p>
+        <p>Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
